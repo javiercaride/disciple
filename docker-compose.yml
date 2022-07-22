@@ -1,0 +1,8 @@
+services:
+  webserver:
+    image: "javiercaride/php:8.1-apache"
+    ports:
+      - "80:80"
+    volumes:
+      - ./:/app
+      - ./virtualhost.conf:/etc/apache2/sites-available/000-default.conf

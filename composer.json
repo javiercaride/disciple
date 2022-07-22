@@ -1,0 +1,22 @@
+{
+    "name": "javiercaride/disciple",
+    "description": "Yet another PHP CMS in the block",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Disciple\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Javier Caride Ulloa",
+            "email": "javier.caride@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.5"
+    }
+}
